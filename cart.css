@@ -1,0 +1,87 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #f8f8f8;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+}
+
+.cart-container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+.cart-items {
+  flex-grow: 1;
+}
+
+.cart-summary {
+  flex-shrink: 0;
+  width: 300px;
+  background-color: #f8f8f8;
+  padding: 20px;
+}
+
+.cart-summary h2 {
+  margin-top: 0;
+}
+
+.cart-summary .summary-items {
+  margin-bottom: 20px;
+}
+
+.cart-summary button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.cart-summary button:hover {
+  background-color: #0056b3;
+}
+
+.navbar-nav .nav-link .fa-sun {
+  height: 25px;
+  width: 25px;
+  margin: auto 50px;
+  color: rgb(240, 192, 86);
+}
+
+.navbar-nav .nav-link .fa-search {
+  height: 25px;
+  width: 25px;
+  margin: auto 50px;
+  color: rgba(13, 103, 247, 0.875);
+}
+
+.navbar-nav .nav-link .fa-dollar-sign {
+  height: 25px;
+  width: 25px;
+  margin: auto 50px;
+  color: rgba(0, 0, 0, 0.875);
+}
+
+.navbar-nav .nav-link .fa-shopping-cart {
+  height: 25px;
+  width: 25px;
+  color: limegreen;
+  margin: auto 50px;
+}

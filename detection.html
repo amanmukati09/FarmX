@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fruit Detection</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="detection.css" />
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top" style="background-color: #e3f2fd">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img src="logos/logo.svg" width="30" height="24" class="d-inline-block align-text-top" alt="FarmX Logo" />
+          FarmX
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="weather.html"
+                data-bs-toggle="tooltip"
+                data-bs-placement="right"
+                title="Weather"
+              >
+                <i class="fas fa-sun"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="marketplace.html"
+                data-bs-toggle="tooltip"
+                data-bs-placement="right"
+                title="Marketplace"
+              >
+                <i class="fas fa-shopping-cart"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                href="detection.html"
+                data-bs-toggle="tooltip"
+                data-bs-placement="right"
+                title="Detect Disease"
+              >
+                <i class="fas fa-search"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="price.html"
+                data-bs-toggle="tooltip"
+                data-bs-placement="right"
+                title="Daily Price"
+              >
+                <i class="fas fa-dollar-sign"></i>
+              </a>
+            </li>
+          </ul>
+
+          <form class="d-flex">
+            <a class="btn btn-danger border-1 border-primary" href="account.html" role="button">Register</a>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="form-container">
+        <h2 class="form-title">Fruit Detection</h2>
+        <form id="detection-form">
+          <div class="form-group">
+            <label for="image-upload" class="upload-label">Upload Image:</label>
+            <input type="file" id="image-upload" class="upload-input" accept="image/*" required />
+          </div>
+          <button type="submit" class="detect-button">Detect</button>
+        </form>
+      </div>
+
+      <div id="result" class="result-container">
+        <!-- Result section will be populated dynamically -->
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
+    <script src="detection.js"></script>
+  </body>
+</html>

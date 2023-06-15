@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Farm Assist</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico" />
+
+    <link rel="stylesheet" href="account.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top" style="background-color: #e3f2fd">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img src="logos/logo.svg" width="30" height="20" class="d-inline-block align-text-top" alt="FarmX Logo" />
+          FarmX
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="weather.html"
+                data-bs-toggle="tooltip"
+                data-bs-placement="right"
+                title="Weather"
+              >
+                <i class="fas fa-sun"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="marketplace.html"
+                data-bs-toggle="tooltip"
+                data-bs-placement="right"
+                title="Marketplace"
+              >
+                <i class="fas fa-shopping-cart"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="detection.html"
+                data-bs-toggle="tooltip"
+                data-bs-placement="right"
+                title="Detect Disease"
+              >
+                <i class="fas fa-search"></i>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="price.html"
+                data-bs-toggle="tooltip"
+                data-bs-placement="right"
+                title="Daily Price"
+              >
+                <i class="fas fa-dollar-sign"></i>
+              </a>
+            </li>
+          </ul>
+
+          <form class="d-flex">
+            <a class="btn btn-danger border-1 border-primary" href="account.html" role="button">Register</a>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container m-auto h-100">
+      <section class="container-fluid my-4 pb-3 pt-2 w-50 bg-dark blackSection">
+        <form action="index.html">
+          <div class="form-outline mb-3 mt-3 w-50 m-auto">
+            <input
+              type="email"
+              id="form2Example1"
+              class="form-control text-center p-2 custom-placeholder fw-bold fs-6"
+              placeholder="Email Address "
+              required
+            />
+          </div>
+
+          <!-- Password input -->
+          <div class="form-outline mb-3 w-50 m-auto">
+            <input
+              type="password"
+              id="form2Example2"
+              class="form-control text-lg-center p-2 fw-bold fs-6 custom-placeholder"
+              placeholder="Password"
+              required
+            />
+          </div>
+
+          <!-- Submit button -->
+          <div class="text-center">
+            <button type="submit" class="btn btn-danger btn-lg btn-block mb-4 p-auto fw-bolder">Sign in</button>
+          </div>
+          <div class="row mb-2">
+            <div class="col text-center">
+              <!-- Simple link -->
+              <a href="https://www.google.com/" class="text-success">Forgot password?</a>
+            </div>
+          </div>
+          <!-- Register buttons -->
+          <div class="text-center">
+            <div class="text-center text-light">
+              <p>Not a member? <a href="account.html" class="text-info">Register</a></p>
+              <p>or sign up with:</p>
+            </div>
+
+            <button type="button" class="btn btn-secondary btn-floating mx-1 bg-light rounded-5">
+              <i class="fab fa-google text-danger"></i>
+            </button>
+          </div>
+        </form>
+      </section>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
+
+    <script src="account.js"></script>
+  </body>
+</html>

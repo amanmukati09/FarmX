@@ -1,0 +1,133 @@
+.navbar-nav .nav-link .fa-sun {
+  height: 25px;
+  width: 25px;
+  margin: auto 50px;
+  color: rgb(240, 192, 86);
+}
+
+.navbar-nav .nav-link .fa-search {
+  height: 25px;
+  width: 25px;
+  margin: auto 50px;
+  color: rgba(13, 103, 247, 0.875);
+}
+
+.navbar-nav .nav-link .fa-dollar-sign {
+  height: 25px;
+  width: 25px;
+  margin: auto 50px;
+  color: rgba(0, 0, 0, 0.875);
+}
+
+.navbar-nav .nav-link .fa-shopping-cart {
+  height: 25px;
+  width: 25px;
+  color: limegreen;
+  margin: auto 50px;
+}
+
+
+body {
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+  text-align: center;
+  background: #f6e6e6;
+}
+
+.form-container {
+  margin-bottom: 20px;
+  background-color: #cfe1f3;
+}
+
+.form-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #700404;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.upload-label {
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  width: 50%;
+  margin: auto;
+  margin-top: 5px;
+}
+
+.upload-input {
+  display: inline-block;
+  padding: 10px;
+  border: 2px solid #381313;
+  border-radius: 4px;
+  font-size: 16px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.detect-button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #f1f7e9;
+  background-color: #092747;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-bottom: 5vh;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.detect-button:hover {
+  background-color: #122b46;
+}
+
+.result-container {
+  padding: 20px;
+  background-color: #1d0202;
+  color: white;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  margin-top: 20px;
+}
+
+.result-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.result-text {
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: #666;
+}
+
+.result-image {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+  border-radius: 4px;
+}

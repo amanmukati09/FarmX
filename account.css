@@ -1,0 +1,63 @@
+body {
+  background-image: linear-gradient(to right, #14072b, #03271b);
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.blackSection {
+  border: 2px solid rgb(1, 36, 1);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  padding: 20px;
+}
+
+.custom-placeholder::placeholder {
+  color: black;
+}
+
+.navbar-nav .nav-link .fa-sun {
+  height: 20px;
+  width: 20px;
+  margin: auto 50px;
+  color: rgb(240, 192, 86);
+}
+
+.navbar-nav .nav-link .fa-search {
+  height: 20px;
+  width: 20px;
+  margin: auto 50px;
+  color: rgba(13, 103, 247, 0.875);
+}
+
+.navbar-nav .nav-link .fa-dollar-sign {
+  height: 20px;
+  width: 20px;
+  margin: auto 50px;
+  color: rgba(0, 0, 0, 0.875);
+}
+
+.navbar-nav .nav-link .fa-shopping-cart {
+  height: 20px;
+  width: 20px;
+  color: limegreen;
+  margin: auto 50px;
+}
+
+@media (max-width: 576px) {
+  .blackSection {
+    width: 90%;
+  }
+}
+
+@media (max-width: 768px) {
+  .blackSection {
+    width: 70%;
+  }
+}
+
+@media (max-width: 992px) {
+  .blackSection {
+    width: 50%;
+  }
+}

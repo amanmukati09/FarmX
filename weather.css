@@ -1,0 +1,73 @@
+.navbar-nav .nav-link .fa-sun {
+  height: 25px;
+  width: 25px;
+  margin: auto 50px;
+  color: rgb(240, 192, 86);
+}
+
+.navbar-nav .nav-link .fa-search {
+  height: 25px;
+  width: 25px;
+  margin: auto 50px;
+  color: rgba(13, 103, 247, 0.875);
+}
+
+.navbar-nav .nav-link .fa-dollar-sign {
+  height: 25px;
+  width: 25px;
+  margin: auto 50px;
+  color: rgba(0, 0, 0, 0.875);
+}
+
+.navbar-nav .nav-link .fa-shopping-cart {
+  height: 25px;
+  width: 25px;
+  color: limegreen;
+  margin: auto 50px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(159, 194, 164);
+}
+.custom-placeholder::placeholder {
+  color: rgb(227, 209, 209);
+  font-family: cursive;
+}
+
+.card-color {
+  background-color: rgb(126, 159, 143);
+  border: 0.5px solid rgb(91, 150, 143);
+  border-radius: 1rem;
+  box-shadow: 1px 1px 10px rgb(87, 76, 76);
+}
+
+.card {
+  background-color: rgb(126, 159, 143);
+  border: 0.5px solid rgb(104, 192, 96);
+  border-radius: 1rem;
+  width: fit-content;
+}
+.buttonColor {
+  background-color: rgb(72, 74, 40);
+  color: rgb(238, 226, 208);
+}
+
+.inputColor {
+  background-color: rgb(92, 112, 159);
+  border-color: rgb(112, 9, 104);
+}
+.btn:hover {
+  color: rgb(204, 204, 237);
+  background: #671818;
+}
+
+.headcolor1 {
+  color: rgb(3, 48, 33);
+  width: 50%;
+  margin: auto;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.5rem;
+}
